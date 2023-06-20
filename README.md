@@ -31,3 +31,6 @@ Looking at topic 198, we see mostly negative words (cockroaches):
 By plotting the ratings, we can see that even though some clients mention seeing cockroaches, they still consider the experience positive, while others give very low ratings.
 
 ![Ratings - Topic 198](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/plot198.png)
+
+
+The second experiment, file sentimentanalysis.ipynb, uses the language model bloomz-560m to rate reviews as positive, neutral, or negatives (sentiment analysis).
