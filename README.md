@@ -17,17 +17,17 @@ The first experiment, file topicmodeling.ipynb, uses topic modeling to cluster s
 
 For example, for topic 211, we have most positive words:
 
-![Worldcloud - Topic 211](https://github.com/dvianna/TripadvisorReviews2023/blob/main/omg/words211.png?raw=true)
+![Worldcloud - Topic 211](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/words211.png)
 
 By plotting the ratings we can see that all reviews were positive, with ratings been either 5 or 4.
 
-![Ratings - Topic 211](https://github.com/dvianna/TripadvisorReviews2023/blob/main/omg/plot211.png?raw=true)
+![Ratings - Topic 211](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/plot211.png)
 
 
 Looking at topic 198, we see mostly negative words (cockroaches):
 
-![Worldcloud - Topic 198](https://github.com/dvianna/TripadvisorReviews2023/blob/main/omg/words198.png?raw=true)
+![Worldcloud - Topic 198](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/words198.png)
 
 By plotting the ratings, we can see that even though some clients mention seeing cockroaches, they still consider the experience positive, while others give very low ratings.
 
-![Ratings - Topic 198](https://github.com/dvianna/TripadvisorReviews2023/blob/main/omg/plot198.png?raw=true)
+![Ratings - Topic 198](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/plot198.png)
