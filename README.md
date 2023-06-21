@@ -11,7 +11,7 @@ https://www.kaggle.com/datasets/arnabchaki/tripadvisor-reviews-2023
 The dataset is composed of reviews and ratings. Ratings can assumes values from 1 to 5, with 5 being the most positive rating.
 
 
-# Topic Modeling and Sentiment Analysis
+# Topic Modeling
 
 The first experiment, file topicmodeling.ipynb, uses topic modeling to cluster semantically similar reviews, Then, we go ahead and analyze some topics according with the reviews' ratings.
 
@@ -33,4 +33,11 @@ By plotting the ratings, we can see that even though some clients mention seeing
 ![Ratings - Topic 198](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/plot198.png)
 
 
+# Sentiment Analysis
+
 The second experiment, file sentimentanalysis.ipynb, uses the language model bloomz-560m to rate reviews as positive, neutral, or negatives (sentiment analysis).
+
+
+# Classification
+
+The third experiment, file classifier.ipynb, combines sentence-transformer and SVM to perform multi-class classification.
