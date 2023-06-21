@@ -41,3 +41,13 @@ The second experiment, file sentimentanalysis.ipynb, uses the language model blo
 # Classification
 
 The third experiment, file classifier.ipynb, combines sentence-transformer and SVM to perform multi-class classification.
+
+The original dataset was split (stratified) in 80%/20% for train and test. 
+
+The confusion matrix resulted after running SVM on the 20% test set:
+
+![Confusion Matrix - Imbalanced Dataset](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/confmatrix_imbalanced.png)
+
+Later, we try to use SMOTE, an over sampling technique, to improve the performance of the minority classes:
+
+![Confusion Matrix - SMOTE](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/confmatrix_smote.png)
