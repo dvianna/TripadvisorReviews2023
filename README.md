@@ -37,6 +37,8 @@ By plotting the ratings, we can see that even though some clients mention seeing
 
 The second experiment, file sentimentanalysis.ipynb, uses the language model bloomz-560m to rate reviews as positive, neutral, or negatives (sentiment analysis).
 
+[{'generated_text': 'Given the sentence delimited by triple backticks ```{go there . dont miss the chance. the food and service was great. just a bit expensive. ,my bill , alone was 100 $ ( no alcohol included)}``` Would you rate the previous review as positive, neutral or negative? positive'}]
+
 
 # Classification
 
@@ -48,6 +50,6 @@ The confusion matrix resulted after running SVM on the 20% test set:
 
 ![Confusion Matrix - Imbalanced Dataset](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/confmatrix_imbalanced.png)
 
-Later, we try to use SMOTE, an over sampling technique, to improve the performance of the minority classes:
+Using SMOTE, an over sampling technique, to improve the performance of the minority classes:
 
 ![Confusion Matrix - SMOTE](https://github.com/dvianna/TripadvisorReviews2023/blob/main/img/confmatrix_smote.png)
